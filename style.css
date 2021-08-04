@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700&display=swap");
+:root {
+  --bright-red: hsl(12, 88%, 59%);
+  --dark-blue: hsl(228, 39%, 23%);
+  --hover-red: hsl(12, 100%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.intro {
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 45vw -30vh;
+}
+
+.intro .navbar {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.intro .navbar .navbar-brand img {
+  width: 120px;
+}
+
+.intro .navbar .nav-link {
+  color: black;
+  margin-right: 1rem;
+}
+
+.intro .intro-main {
+  padding-top: 5.3rem;
+}
+
+.intro .intro-main h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.intro .intro-main .regular_text {
+  width: 90%;
+}
+
+.services {
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: -35vw 20vh;
+  padding-top: 6.5rem;
+  padding-bottom: 4rem;
+}
+
+.services span {
+  background-color: var(--bright-red);
+  color: white;
+  padding: 0.1rem 1.5rem;
+  padding-top: 0;
+  border-radius: 30px;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.services h3 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.services .regular_text-right {
+  font-size: 1.5rem;
+  color: #9095a7;
+  margin-left: 6.6rem;
+}
+
+.services .different + .different {
+  margin-top: 2.5rem;
+}
+
+.testimonial {
+  text-align: center;
+  padding-top: 6.5rem;
+  padding-bottom: 7rem;
+}
+
+.testimonial h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.testimonial .glide {
+  margin: 5rem 0;
+}
+
+.testimonial .glide h4 {
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.testimonial .glide i {
+  color: black;
+  font-size: 20px;
+}
+
+.newsletter {
+  background-color: var(--bright-red);
+  color: white;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+  background-image: url("images/bg-simplify-section-desktop.svg");
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.newsletter .white {
+  background-color: white;
+  color: var(--bright-red);
+  margin-left: 15rem;
+}
+
+.newsletter .white:hover {
+  background-color: white;
+  color: var(--hover-red);
+}
+
+.get_started_cta {
+  background-color: var(--bright-red);
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.6em 1.5em;
+  padding-top: 0.3em;
+  border-radius: 50px;
+  -webkit-box-shadow: rgba(255, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(255, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.get_started_cta:hover {
+  background-color: var(--hover-red);
+  text-decoration: none;
+  color: white;
+}
+
+.regular_text {
+  font-size: 1.5rem;
+  color: #9095a7;
+}
+/*# sourceMappingURL=style.css.map */
