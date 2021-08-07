@@ -11,6 +11,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Be Vietnam", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 html {
@@ -35,6 +37,14 @@ html {
 .intro .navbar .nav-link {
   color: black;
   margin-right: 1rem;
+}
+
+.intro .navbar-light .navbar-toggler-icon {
+  background-image: url("images/icon-hamburger.svg") !important;
+}
+
+.intro .navbar-light .navbar-toggler {
+  border: none;
 }
 
 .intro .intro-main {
@@ -67,7 +77,7 @@ html {
 }
 
 .services h2 {
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 
@@ -93,7 +103,7 @@ html {
 }
 
 .testimonial h2 {
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 
@@ -120,7 +130,7 @@ html {
 }
 
 .newsletter h2 {
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 
@@ -133,6 +143,50 @@ html {
 .newsletter .white:hover {
   background-color: white;
   color: var(--hover-red);
+}
+
+.footer {
+  background-color: #1d1e25;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.footer .logo img {
+  width: 120px;
+}
+
+.footer .icons a + a {
+  margin-left: 1.5rem;
+}
+
+.footer .footer-links li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer .footer-links li a {
+  color: white;
+}
+
+.footer .footer-links li a:hover {
+  text-decoration: none;
+  color: var(--bright-red);
+}
+
+.footer .footer__input {
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.footer .left {
+  margin-right: 6rem;
 }
 
 .get_started_cta {
@@ -158,5 +212,75 @@ html {
 .regular_text {
   font-size: 1.5rem;
   color: #9095a7;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro .regular_text {
+    width: 100%;
+  }
+  .navbar-collapse {
+    text-align: center;
+    background: white;
+    border-radius: 3px;
+    padding: 1.5rem 0;
+    margin-top: 2.5rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .navbar-nav {
+    font-weight: bold;
+  }
+  .navbar-nav li {
+    padding-bottom: 1rem;
+  }
+  .newsletter .white {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  .intro .intro-main h1 {
+    font-size: 4rem;
+  }
+  .services h3 {
+    text-align: left;
+    background-color: rgba(248, 217, 211, 0.918);
+    padding: 0.3rem 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  .services .regular_text-right {
+    text-align: left;
+    margin-left: 0;
+  }
+  .footer .first {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer .second {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 2.5rem 0;
+    text-align: left;
+  }
+  .footer .third {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .footer .icons {
+    margin-top: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
